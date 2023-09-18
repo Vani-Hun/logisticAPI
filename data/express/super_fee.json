@@ -1,0 +1,1225 @@
+{
+    "HaNoi":
+        {
+            "level1_id": "01",
+            "name": "Thành phố Hà Nội",
+            "type": "Thành phố Trung ương",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [132660,148500,173520,198000,19100],
+                    "costOut": [164220,183600,214200,244800,22900],
+                    "range": "Đà Nẵng"
+                },
+		        {
+                    "level2_id": "A-E",
+                    "costIn": [146520,156420,181170,205920,21500],
+                    "costOut": [181560,193800,224400,255000,25600],
+                    "range": "Hồ Chí Minh"
+                },
+		        {
+                    "level2_id": "A-F",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "HaNoi", 
+                    "code_area": "A", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai", 
+                    "Out": "Quận Hà Đông, Quận Long Biên"
+                },
+                { 
+                    "code_name": "HaiPhong, HungYen, PhuTho, ThaiNguyen, BacGiang", 
+                    "code_area": "B", 
+                    "In": "Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Việt Trì, Thành Phố Thái Nguyên, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "NgheAn, ThaiBinh", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Vinh, Thành Phố Thái Bình", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "DaNang", 
+                    "code_area": "D", 
+                    "In": "Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HoChiMinh", 
+                    "code_area": "E", 
+                    "In": "Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DakLak, DongNai, PhuYen, QuangNgai, TienGiang, VinhLong", 
+                    "code_area": "F", 
+                    "In": "Thành Phố Quy Nhơn, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Thành Phố Nha Trang, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho, Thành Phố Vĩnh Long", 
+                    "Out": "None"
+                }
+            ]
+	},
+    "HaiPhong":
+        {
+            "level1_id": "02",
+            "name": "Thành phố Hải Phòng",
+            "type": "Thành phố Trung ương",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "HaiPhong", 
+                    "code_area": "A", 
+                    "In": "Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaNoi, HungYen, ThaiBinh", 
+                    "code_area": "B", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai, Thành Phố Thái Bình", 
+                    "Out": "Quận Hà Đông, Quận Long Biên, Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "PhuTho, ThaiNguyen, BacGiang", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Việt Trì, Thành Phố Thái Nguyên, Thành Phố Bắc Giang", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, KhanhHoa, NgheAn, PhuYen, QuangNgai, TienGiang, HoChiMinh, VinhLong", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn,Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một,Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Thành Phố Nha Trang, Thành Phố Vinh, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp , Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "HungYen":
+        {
+            "level1_id": "03",
+            "name": "Tỉnh Hưng Yên",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "HungYen", 
+                    "code_area": "A", 
+                    "In": "None", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "HaNoi, HaiPhong, ThaiBinh, BacGiang", 
+                    "code_area": "B", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai, Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Thái Bình,Thành Phố Bắc Giang", 
+                    "Out": "Quận Hà Đông, Quận Long Biên"
+                },
+                { 
+                    "code_name": "NgheAn, PhuTho, ThaiNguyen", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Thái Nguyên", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, KhanhHoa, PhuYen, QuangNgai, TienGiang, HoChiMinh, VinhLong", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Thành Phố Nha Trang, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp , Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "PhuTho":
+        {
+            "level1_id": "04",
+            "name": "Tỉnh Phú Thọ",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "PhuTho", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Việt Trì", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaNoi", 
+                    "code_area": "B", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai", 
+                    "Out": "Quận Hà Đông, Quận Long Biên"
+                },
+                { 
+                    "code_name": "HaiPhong, HungYen, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "C", 
+                    "In": "Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Thái Bình, Thành Phố Thái Nguyên,Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, KhanhHoa, NgheAn, PhuYen, QuangNgai, TienGiang, HoChiMinh, VinhLong", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn,Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Thành Phố Nha Trang, Thành Phố Vinh, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp, Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "ThaiBinh":
+        {
+            "level1_id": "05",
+            "name": "Tỉnh Thái Bình",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "ThaiBinh", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Thái Bình", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaiPhong, HungYen", 
+                    "code_area": "B", 
+                    "In": "Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "HaNoi, NgheAn, PhuTho, ThaiNguyen, BacGiang", 
+                    "code_area": "C", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai, Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Thái Nguyên, Thành Phố Bắc Giang", 
+                    "Out": "Quận Hà Đông, Quận Long Biên"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, KhanhHoa, PhuYen, QuangNgai, TienGiang, HoChiMinh, VinhLong", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa,Thành Phố Nha Trang, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp ,Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân, Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "ThaiNguyen":
+        {
+            "level1_id": "06",
+            "name": "Tỉnh Thái Nguyên",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "ThaiNguyen", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Thái Nguyên", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaNoi, BacGiang", 
+                    "code_area": "B", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai ,Thành Phố Bắc Giang", 
+                    "Out": "Quận Hà Đông, Quận Long Biên"
+                },
+                { 
+                    "code_name": "HaiPhong, HungYen, PhuTho, ThaiBinh", 
+                    "code_area": "C", 
+                    "In": "Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Việt Trì,Thành Phố Thái Bình", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, KhanhHoa, NgheAn, PhuYen, QuangNgai, TienGiang, HoChiMinh, VinhLong", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Thành Phố Nha Trang, Thành Phố Vinh, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp , Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "BacGiang":
+        {
+            "level1_id": "07",
+            "name": "Tỉnh Bắc Giang",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "BacGiang", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Bắc Giang", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaNoi, HungYen", 
+                    "code_area": "B", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai", 
+                    "Out": "Quận Hà Đông, Quận Long Biên,Huyện Văn Lâm"
+                },
+                { 
+                    "code_name": "HaiPhong, PhuTho, ThaiBinh", 
+                    "code_area": "C", 
+                    "In": "Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Thái Bình,Thành Phố Thái Nguyên, Thành Phố Việt Trì", 
+                    "Out": "Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, KhanhHoa, NgheAn, PhuYen, QuangNgai, TienGiang, HoChiMinh, VinhLong", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Thành Phố Nha Trang, Thành Phố Vinh, Thành Phố Tuy Hòa, Thành Phố Quãng Ngãi, Thành Phố Mỹ Tho,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp , Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "DaNang":
+        {
+            "level1_id": "08",
+            "name": "Thành phố Đà Nẵng",
+            "type": "Thành phố Trung ương",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+                {
+                    "level2_id": "A-D",
+                    "costIn": [132660,148500,173520,198000,19100],
+                    "costOut": [164220,183600,214200,244800,22900],
+                    "range": "Hà Nội - Hồ Chí Minh"
+                },
+		        {
+                    "level2_id": "A-E",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "DaNang", 
+                    "code_area": "A", 
+                    "In": "Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "QuangNgai", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Quảng Ngãi", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HoChiMinh, HaNoi", 
+                    "code_area": "D", 
+                    "In": "Huyện Nhà Bè, Huyện Hóc Môn, Huyện Bình Chánh, Huyện Củ Chi, Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp", 
+                    "Out": "Quận Hà Đông, Quận Long Biên, Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DakLak, DongNai, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, ThaiBinh, ThaiNguyen, TienGiang, VinhLong, BacGiang", 
+                    "code_area": "E", 
+                    "In": "Thành Phố Quy Nhơn,Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một,Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Buôn Mê Thuột, Thành Phố Biên Hòa, Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa, Thành Phố Thái Bình ,Thành Phố Thái Nguyên,Thành Phố Mỹ Tho,Thành Phố Vĩnh Long, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                }
+            ]
+	},
+    "BinhDinh":
+        {
+            "level1_id": "09",
+            "name": "Tỉnh Bình Định",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "BinhDinh", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Quy Nhơn", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "QuangNgai", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Quảng Ngãi", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "DakLak, KhanhHoa", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Nha Trang, Thành Phố Buôn Mê Thuột", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, CanTho, DaNang, DongNai, HaNoi, HaiPhong, HungYen, NgheAn, PhuTho, ThaiBinh, ThaiNguyen, PhuYen, TienGiang, HoChiMinh, VinhLong, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Biên Hòa, Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai, Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Thái Bình ,Thành Phố Thái Nguyên,Thành Phố Mỹ Tho,Thành Phố Vĩnh Long, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp , Thành Phố Tuy Hòa, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên, Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "KhanhHoa":
+        {
+            "level1_id": "10",
+            "name": "Tỉnh Khánh Hòa",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "KhanhHoa", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Nha Trang", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "PhuYen", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Tuy Hòa", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, DakLak, QuangNgai", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Quy Nhơn, Thành Phố Buôn Mê Thuột, Thành Phố Quảng Ngãi", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, CanTho, DaNang, DongNai, HaNoi, HaiPhong, HungYen, NgheAn, PhuTho, ThaiBinh, ThaiNguyen, TienGiang, HoChiMinh, VinhLong, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Biên Hòa, Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Thái Bình ,Thành Phố Thái Nguyên,Thành Phố Mỹ Tho,Thành Phố Vĩnh Long, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp , Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên, Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "DakLak":
+        {
+            "level1_id": "11",
+            "name": "Tỉnh Đắk Lắk",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "DakLak", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Buôn Mê Thuột", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, KhanhHoa, PhuYen, HoChiMinh", 
+                    "code_area": "C", 
+                    "In": "Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp, Thành Phố Quy Nhơn, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Thành Phố Nha Trang, Thành Phố Tuy Hòa", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "CanTho, DaNang, DongNai, HaNoi, HaiPhong, HungYen, NgheAn, PhuTho, QuangNgai, ThaiBinh, ThaiNguyen, TienGiang, VinhLong, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Biên Hòa, Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai , Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Quảng Ngãi, Thành Phố Thái Nguyên, Thành Phố Thái Bình , Thành Phố Mỹ Tho, Thành Phố Vĩnh Long, Thành Phố Bắc Giang", 
+                    "Out": "Quận Hà Đông, Quận Long Biên, Huyện Văn Lâm, Huyện Yên Mỹ"
+                }
+            ]
+	},
+    "NgheAn":
+        {
+            "level1_id": "12",
+            "name": "Tỉnh Nghệ An",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "NgheAn", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Vinh", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaNoi, HungYen, ThaiBinh", 
+                    "code_area": "C", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai", 
+                    "Out": "Quận Hà Đông, Quận Long Biên, Huyện Văn Lâm, Huyện Yên Mỹ"
+                },
+                { 
+                    "code_name": "BinhDinh, BinhDuong, CanTho, DaNang, DakLak, DongNai, HaiPhong, KhanhHoa, PhuTho, PhuYen, QuangNgai, ThaiNguyen, TienGiang, HoChiMinh, VinhLong, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn, Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Buôn Mê Thuột, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Biên Hòa, Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Việt Trì, Thành Phố Tuy Hòa, Thành Phố Quảng Ngãi, Thành Phố Thái Nguyên, Thành Phố Mỹ Tho, Thành Phố Vĩnh Long, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp, Thành Phố Bắc Giang", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "PhuYen":
+        {
+            "level1_id": "13",
+            "name": "Tỉnh Phú Yên",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "PhuYen", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Tuy Hòa", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, KhanhHoa", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Quy Nhơn, Thành Phố Nha Trang", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "DakLak, QuangNgai", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Buôn Mê Thuột, Thành Phố Quảng Ngãi", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, CanTho, DaNang, DongNai, HaNoi, HaiPhong, HungYen, NgheAn, PhuTho, ThaiBinh, ThaiNguyen, TienGiang, HoChiMinh, VinhLong, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Biên Hòa, Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai , Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Thái Bình ,Thành Phố Thái Nguyên,Thành Phố Mỹ Tho,Thành Phố Vĩnh Long, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên, Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "QuangNgai":
+        {
+            "level1_id": "14",
+            "name": "Tỉnh Phú Yên",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "QuangNgai", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Quảng Ngãi", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Quy Nhơn", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "DaNang, PhuYen", 
+                    "code_area": "C", 
+                    "In": "Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn, Thành Phố Tuy Hòa", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, CanTho, DakLak, DongNai, HaNoi, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, ThaiBinh, ThaiNguyen, TienGiang, HoChiMinh, VinhLong, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một, Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều, Thành Phố Biên Hòa, Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai , Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Vinh, Thành Phố Việt Trì, Thành Phố Thái Bình ,Thành Phố Thái Nguyên,Thành Phố Mỹ Tho,Thành Phố Vĩnh Long, Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp, Thành Phố Buôn Mê Thuột, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên, Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                }
+            ]
+	},
+    "HoChiMinh":
+        {
+            "level1_id": "15",
+            "name": "Thành phố Hồ Chí Minh",
+            "type": "Thành phố Trung ương",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [132660,148500,173520,198000,19100],
+                    "costOut": [164220,183600,214200,244800,22900],
+                    "range": "Đà Nẵng"
+                },
+		        {
+                    "level2_id": "A-E",
+                    "costIn": [146520,156420,181170,205920,21500],
+                    "costOut": [181560,193800,224400,255000,25600],
+                    "range": "Hà Nội"
+                },
+		        {
+                    "level2_id": "A-F",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "HoChiMinh", 
+                    "code_area": "A", 
+                    "In": "Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "DongNai, TienGiang, BinhDuong", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Biên Hòa,Thành Phố Mỹ Tho,Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "CanTho, DakLak, VinhLong", 
+                    "code_area": "C", 
+                    "In": "Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều,Thành Phố Buôn Mê Thuột,Thành Phố Vĩnh Long", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "DaNang", 
+                    "code_area": "D", 
+                    "In": "Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "HaNoi", 
+                    "code_area": "E", 
+                    "In": "Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai", 
+                    "Out": "Quận Hà Đông, Quận Long Biên"
+                },
+                { 
+                    "code_name": "BinhDinh, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, QuangNgai, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "F", 
+                    "In": "Thành Phố Quy Nhơn,Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa,Thành Phố Quãng Ngãi,Thành Phố Thái Bình ,Thành Phố Thái Nguyên, Thành Phố Bắc Giang",
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ"
+                }
+            ]
+	},
+    "BinhDuong":
+        {
+            "level1_id": "16",
+            "name": "Tỉnh Bình Dương",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "BinhDuong", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "DongNai, TienGiang, HoChiMinh", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Biên Hòa,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp, Thành Phố Mỹ Tho", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "CanTho, DakLak, VinhLong", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Buôn Mê Thuột,Thành Phố Vĩnh Long,Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, DaNang, HaNoi, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, QuangNgai, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Bắc Giang ,Huyện Việt Yên,Thành Phố Bắc Ninh,Huyện Quế Võ,Thành Phố Quy Nhơn,Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn,Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai ,Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa,Thành Phố Quãng Ngãi,Thành Phố Thái Bình ,Thành Phố Thái Nguyên, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên"
+                }
+            ]
+	},
+    "CanTho":
+        {
+            "level1_id": "17",
+            "name": "Tỉnh Cần Thơ",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "CanTho", 
+                    "code_area": "A", 
+                    "In": "Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "VinhLong", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Vĩnh Long", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, DongNai, TienGiang, HoChiMinh", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một,Thành Phố Biên Hòa,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp,Thành Phố Mỹ Tho", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "BinhDinh, DaNang, DakLak, HaNoi, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, QuangNgai, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn,Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn,Thành Phố Buôn Mê Thuột,Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai ,Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An, Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa,Thành Phố Quãng Ngãi,Thành Phố Thái Bình ,Thành Phố Thái Nguyên, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên"
+                }
+            ]
+	},
+    "DongNai":
+        {
+            "level1_id": "18",
+            "name": "Tỉnh Đồng Nai",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "DongNai", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Biên Hòa", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, HoChiMinh", 
+                    "code_area": "B", 
+                    "In": "Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp,Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "CanTho, TienGiang, VinhLong", 
+                    "code_area": "C", 
+                    "In": "Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều,Thành Phố Mỹ Tho,Thành Phố Vĩnh Long", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, DaNang, DakLak, HaNoi, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, QuangNgai, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn,Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn,Thành Phố Buôn Mê Thuột,Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai,Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa,Thành Phố Quãng Ngãi,Thành Phố Thái Bình ,Thành Phố Thái Nguyên, Thành phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên"
+                }
+            ]
+	},
+    "TienGiang":
+        {
+            "level1_id": "19",
+            "name": "Tỉnh Tiền Giang",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "TienGiang", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Mỹ Tho", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, HoChiMinh, VinhLong", 
+                    "code_area": "B", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp ,Thành Phố Vĩnh Long", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "CanTho, DongNai", 
+                    "code_area": "C", 
+                    "In": "Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều,Thành Phố Biên Hòa", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDinh, DaNang, DakLak, HaNoi, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, QuangNgai, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn,Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn,Thành Phố Buôn Mê Thuột,Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai ,Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa,Thành Phố Quãng Ngãi,Thành Phố Thái Bình ,Thành Phố Thái Nguyên,Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên"
+                }
+            ]
+	}
+    ,
+    "VinhLong":
+        {
+            "level1_id": "20",
+            "name": "Tỉnh Vĩnh Long",
+            "type": "Tỉnh",
+            "code_area": "A",
+            "level2s": [
+                {
+                    "level2_id": "A-A",
+                    "costIn": [31680,36300,40920,45540,11400],
+                    "costOut": [38760,44965,51170,57375,14100],
+                    "range": "Nội tỉnh"
+                },
+		        {
+                    "level2_id": "A-B",
+                    "costIn": [69300,76560,83820,91080,15900],
+                    "costOut": [85680,94265,102850,111350,19500],
+                    "range": "<100km"
+                },
+		        {
+                    "level2_id": "A-C",
+                    "costIn": [106920,116160,125400,134640,18400],
+                    "costOut": [132600,142630,152660,162690,22500],
+                    "range": "100-300km"
+                },
+		        {
+                    "level2_id": "A-D",
+                    "costIn": [176220,188100,212850,237600,22000],
+                    "costOut": [218280,232560,263160,293760,26800],
+                    "range": ">300km"
+                }
+	        ],
+            "cities":[
+                { 
+                    "code_name": "VinhLong", 
+                    "code_area": "A", 
+                    "In": "Thành Phố Vĩnh Long", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "CanTho, TienGiang", 
+                    "code_area": "B", 
+                    "In": "Quận Bình Thủy, Quận Cái Răng, Quận Ninh Kiều,Thành Phố Mỹ Tho", 
+                    "Out": "None"
+                },
+                { 
+                    "code_name": "BinhDuong, DongNai, HoChiMinh", 
+                    "code_area": "C", 
+                    "In": "Thành Phố Thuận An, Thành Phố Dĩ An, Thành Phố Thủ Dầu Một,Thành Phố Biên Hòa,Quận 1, Quận 2, Quận 3, Quận 4, Quận 5, Quận 6, Quận 7, Quận 8, Quận 10, Quận 11, Quận Bình Thạnh, Quận Tân Bình, Quận Tân Phú, Quận Phú Nhuận, Quận Gò Vấp", 
+                    "Out": "Quận 9, Quận 12, Quận Thủ Đức, Quận Bình Tân"
+                },
+                { 
+                    "code_name": "BinhDinh, DaNang, DakLak, HaNoi, HaiPhong, HungYen, KhanhHoa, NgheAn, PhuTho, PhuYen, QuangNgai, ThaiBinh, ThaiNguyen, BacGiang", 
+                    "code_area": "D", 
+                    "In": "Thành Phố Quy Nhơn,Quận Hải Châu, Quận Cẩm Lệ , Quận Liên Chiểu , Quận Thanh Khê, Quận Sơn Trà, Quận Ngũ Hành Sơn,Thành Phố Buôn Mê Thuột,Quận Hoàn Kiếm, Quận Hai Bà Trung, Quận Đống Đa, Quận Cầu Giấy, Quận Ba Đình, Quận Tây Hồ, Quận Nam Từ Liêm, Quận Bắc Từ Liêm, Quận Thanh Xuân, Quận Hoàng Mai ,Quận Ngô Quyền, Quận Lê Chân, Quận Kiến An,Thành Phố Nha Trang,Thành Phố Vinh,Thành Phố Việt Trì,Thành Phố Tuy Hòa,Thành Phố Quãng Ngãi,Thành Phố Thái Bình ,Thành Phố Thái Nguyên, Thành Phố Bắc Giang", 
+                    "Out": "Huyện Văn Lâm, Huyện Yên Mỹ, Quận Hà Đông, Quận Long Biên"
+                }
+            ]
+	}
+}

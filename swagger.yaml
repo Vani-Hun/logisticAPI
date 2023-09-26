@@ -4,10 +4,10 @@ info:
   version: "1.0.0"
   title: "Logistic Web Service"
   contact:
-    email: "logistic-37qz.onrender.com"
-host: "logistic-37qz.onrender.com"
+    email: "logistic-as0b.onrender.com"
+host: "logistic-as0b.onrender.com"
 # localhost:8000
-# logistic-37qz.onrender.com
+# https://logistic-as0b.onrender.com
 basePath: "/api"
 schemes:
 - "http"
